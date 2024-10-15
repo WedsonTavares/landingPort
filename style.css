@@ -96,19 +96,34 @@ h2 {
 }
 
 @media (max-width: 480px) {
+    body {
+        padding: 20px;
+    }
+
     header {
         font-size: 24px;
+        text-align: center;
     }
 
     h2 {
         font-size: 28px;
+        text-align: center;
     }
 
     #rede {
         font-size: 20px;
+        text-align: center;
+    }
+
+    .social-buttons {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 
     .social-buttons a {
         padding: 8px 16px;
+        width: 100%;
+        text-align: center;
     }
 }
